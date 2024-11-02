@@ -23,10 +23,17 @@ Regarding the 'target' (copper pieces) matching this knob, see below.
 
 ### Stem 
 Use the upstream part in the 3MF folder
+
+Printing tips:
+Print upside down without supports.
+
 ### Flexure 
 You can use anyone you like
 
-I have copied the reinforced version by lpurdy into the 3MF folder
+I have copied the reinforced version by lpurdy into the 3MF folder and another one (Stiffer than lpurdy's ) into the Exports folder.
+
+Printing tips:
+Supports are not needed.
 
 ## Unique parts
 
@@ -45,7 +52,7 @@ Exported in two versions:
 Printing tips:
 
   * If you print it flat, you will get very noticeable layers. The effect can be reduced by reducing layer thickness as much as you have time to wait. You can of course also sand and polish or paint the surface. 20% lightning infill worked fine for me.
-  * You get a better top surface by printing it lying on its side, but then use an infill that also supports sideways (not lightning). Some extra supports to keep it from tilting is adviced if you are able to add it.
+  * You get a better top surface by printing it lying on its side, but then use an infill that also supports sideways (not lightning). Some extra supports to keep it from tilting is adviced if you are able to add it. My best results have been with Cura's "tree" support.
 
 ### 3buttons
 ![](3buttons.png?raw=true)
@@ -78,7 +85,7 @@ THis is an optional part, its function is to better hide the PCB and screws
 Only tested together with the knob included here. If you want one matching the upstream knob, add a request.
 
 Printing tips:
-* This should ideally also be printed lying on its side, but I haven't been successful yet.
+* This should ideally also be printed lying on its side, but I haven't been successful since it easily moves a little. But for this part it looks ok also if printed lying down.
 
 ### bottom lid 
  ![](bottom.png?raw=true)
