@@ -140,8 +140,8 @@ Assuming you already have an assembled PBA and has removed all printing supports
 1. Make threads in the holes, at least a mm longer than you will need. Especially important in the stem and knob!  Ideally use an M3 taper, but an M3 screw will also do.
 2. Glue copper pieces to the knob
 3. Solder, if you want, wires to four switches and put them in place. Add the "button" parts.
-4. Solder, if you want, a switch to the RX/TX holes on the bottom side. (Can be used to get the MCU into boot loader). The switch button shall be centered between the two holes to match the hole i the base.
-  * If you don't add the switch you probably want to drill the base hole bigger (5mm) to be able to shorten the Rx and Tx with a piece of wire or similar.
+4. Solder, if you want, a switch to the RX/TX holes on the bottom side. (Can be used to get the MCU into boot loader). The switch button shall be centered between the two holes to match the hole in the base. If you can find a switch with two through-hole legs, like [this](https://www.amazon.se/dp/B0DFH41ZLB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1), which also works well for the other buttons, you can just bend them. Otherwise you need to be more creative.
+  * If you don't add the switch you probably want to drill the base hole bigger (5mm) to be able to shorten the Rx and Tx with a piece of wire or similar (Not ESD safe). You could of course also sacrifice one of the buttons for this function.
 5. Solder the button switch wires to the PCB (see below)
 6. Screw PCB and Base together
 7. Screw Stem and Flexure together
