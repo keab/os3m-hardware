@@ -1,14 +1,18 @@
 # Custom ergonomic mechanical design
 
 
-This is a custom design for mechanical parts matching the OS3M PCB. It has some nice added features:
+This is a custom design for mechanical parts matching the OS3M PCB. It has (in my view) some nice added features:
 * Ergonomic shape 
 * Made to have a 2 mm soft insert
 * Compartment for adding dead weight
 * Designed to have up to four 6x6x5 mm SPST switches that can be connected to the PCB (Note: firmware is not yet ready for this)
 * The bottom has recesses for gluing in rubber "feet"
 
-*Credits: To save some time I borrowed a couple of profiles from Thingiverse #4772023 (handrest for 3dConnexion) by SenJos**
+The design is made in Solid Edge Community Version, which is free so anyone should be able to extend the work if you like. Note that the files cannot (according to Siemens) be opened in the *commercial* version of Solid Edge. It's my first use of this tool so don't be suprised if you see that some features could have been done in a smarter way.
+
+*Credits: To save some time I borrowed a couple of profiles from Thingiverse #4772023 (handrest for 3dConnexion) by SenJos. Other re-used but slightly modified items are the knob from the HEIA fork, the target from lpurdy and the stem from spoter368*
+
+## Parts
 
 ### Knob
 
@@ -119,7 +123,9 @@ Printing tips:
 ### custom_target
 ![](custom_target_mod.png?raw=true)
 
-This is a paper stencil for the "target" copper pieces.  Originally designed by https://github.com/lpurdy01/os3m_target_testing, but cut-off a bit to make assembly easier. There is also a pdf of the un-cut version, if you prefer. Both match the knob included here
+This is a paper stencil for the "target" copper pieces.  Originally designed by https://github.com/lpurdy01/os3m_target_testing, but cut-off a bit to make assembly easier. There is also a pdf of the un-cut version, if you prefer. Both match the knob included here.
+
+![](custom_target.png?raw=true)
 
 Print the PDF on paper and use as stencil to cut copper sheet metal (1 mm thickness is fine). 
 
@@ -134,8 +140,8 @@ Assuming you already have an assembled PBA and has removed all printing supports
 1. Make threads in the holes, at least a mm longer than you will need. Especially important in the stem and knob!  Ideally use an M3 taper, but an M3 screw will also do.
 2. Glue copper pieces to the knob
 3. Solder, if you want, wires to four switches and put them in place. Add the "button" parts.
-4. Solder, if you want, a switch to the RX/TX holes on the bottom side. (Can be used to get the MCU into boot loader). The switch button shall be centered between the two holes to match the hole i the base.
-  * If you don't add the switch you probably want to drill the base hole bigger (5mm) to be able to shorten the Rx and Tx with a piece of wire or similar.
+4. Solder, if you want, a switch to the RX/TX holes on the bottom side. (Can be used to get the MCU into boot loader). The switch button shall be centered between the two holes to match the hole in the base. If you can find a switch with two through-hole legs, like [this](https://www.amazon.se/dp/B0DFH41ZLB?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1), which also works well for the other buttons, you can just bend them. Otherwise you need to be more creative.
+  * If you don't add the switch you probably want to drill the base hole bigger (5mm) to be able to shorten the Rx and Tx with a piece of wire or similar (Not ESD safe). You could of course also sacrifice one of the buttons for this function.
 5. Solder the button switch wires to the PCB (see below)
 6. Screw PCB and Base together
 7. Screw Stem and Flexure together
