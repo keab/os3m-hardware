@@ -1,14 +1,18 @@
 # Custom ergonomic mechanical design
 
 
-This is a custom design for mechanical parts matching the OS3M PCB. It has some nice added features:
+This is a custom design for mechanical parts matching the OS3M PCB. It has (in my view) some nice added features:
 * Ergonomic shape 
 * Made to have a 2 mm soft insert
 * Compartment for adding dead weight
 * Designed to have up to four 6x6x5 mm SPST switches that can be connected to the PCB (Note: firmware is not yet ready for this)
 * The bottom has recesses for gluing in rubber "feet"
 
-*Credits: To save some time I borrowed a couple of profiles from Thingiverse #4772023 (handrest for 3dConnexion) by SenJos**
+The design is made in Solid Edge Community Version, which is free so anyone should be able to extend the work if you like. Note that the files cannot (according to Siemens) be opened in the *commercial* version of Solid Edge. It's my first use of this tool so don't be suprised if you see that some features could have been done in a smarter way.
+
+*Credits: To save some time I borrowed a couple of profiles from Thingiverse #4772023 (handrest for 3dConnexion) by SenJos. Other re-used but slightly modified items are the knob from the HEIA fork, the target from lpurdy and the stem from spoter368*
+
+## Parts
 
 ### Knob
 
@@ -119,7 +123,9 @@ Printing tips:
 ### custom_target
 ![](custom_target_mod.png?raw=true)
 
-This is a paper stencil for the "target" copper pieces.  Originally designed by https://github.com/lpurdy01/os3m_target_testing, but cut-off a bit to make assembly easier. There is also a pdf of the un-cut version, if you prefer. Both match the knob included here
+This is a paper stencil for the "target" copper pieces.  Originally designed by https://github.com/lpurdy01/os3m_target_testing, but cut-off a bit to make assembly easier. There is also a pdf of the un-cut version, if you prefer. Both match the knob included here.
+
+![](custom_target.png?raw=true)
 
 Print the PDF on paper and use as stencil to cut copper sheet metal (1 mm thickness is fine). 
 
