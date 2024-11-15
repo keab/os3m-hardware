@@ -23,16 +23,16 @@ You may use the upstream knob, but if you want to use the "cap" part, it's only 
 Regarding the 'target' (copper pieces) matching this knob, see below.
 
 ### Stem 
-You can use the upstream part in the 3MF folder, but a slightly modified version  - that gives a more tight fit with the Cap - is included here.
+You can use the upstream part, but a slightly modified version  - that gives a more tight fit with the Cap - is included here.
 
 Printing tips:
 Print upside down without supports.
 For right-hand mouse: Same part
 
 ### Flexure 
-You can use anyone you like
+You can use anyone you like.
 
-I have copied the reinforced version by lpurdy into the 3MF folder and another one (Stiffer than lpurdy's ) into the Exports folder.
+The - in my opinion - best one for now is the reinforced version by lpurdy, which is copied into the Exports folder.
 
 Printing tips:
 
