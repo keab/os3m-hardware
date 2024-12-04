@@ -5,7 +5,7 @@ This is a custom design for mechanical parts matching the OS3M PCB. It has (in m
 * Ergonomic shape 
 * Made to have a 2 mm soft insert
 * Compartment for adding dead weight
-* Designed to have up to four 6x6x5 mm SPST switches that can be connected to the PCB (Note: firmware is not yet ready for this)
+* Designed to have up to four 6x6x5 mm SPST switches that can be connected to the PCB (Matching firmware can be found in https://github.com/keab/os3m-firmware/tree/buttons)
 * The bottom has recesses for gluing in rubber "feet"
 
 The design is made in Solid Edge Community Version, which is free so anyone should be able to extend the work if you like. Note that the files cannot (according to Siemens) be opened in the *commercial* version of Solid Edge. It's my first use of this tool so don't be suprised if you see that some features could have been done in a smarter way.
@@ -32,7 +32,7 @@ For right-hand mouse: Same part
 ### Flexure 
 You can use anyone you like.
 
-The - in my opinion - best one for now is the reinforced version by lpurdy, which is copied into the Exports folder.
+The - in my opinion - best one for now is the reinforced version by lpurdy, further thickened by 0.4mm and printed in PETG (PLA becomes too stiff). You will find it in the Exports folder as lpurdy_Flexure_Mini_Renforced_plus04
 
 Printing tips:
 
@@ -81,6 +81,12 @@ Printing tips:
 
 * For best strength, print it lying on its side
 * For right-hand mouse: Mirror about Y-axis
+
+### Wire holder
+ 
+![](wireholder.png?raw=true)
+This is a last minute workaround. Print three to four of these and use them to hold switch wires in place under the PCB, they can otherwise easily get in the way for other parts.
+
 
 ### cap
 ![](cap.png?raw=true)
@@ -152,15 +158,21 @@ Assuming you already have an assembled PBA and has removed all printing supports
 10. Screw Stem and Base together
 11. Add, if wanted, metall to the bottom compartment and fasten the lid.  (This step can be done at any time)
 
-## Adding button switches
+## Adding buttons/switches
 
-The button switches shall be 6x6x5mm, no bracket, either through-hole or SMT. 
+The switches shall be 6x6x5mm, no bracket, either through-hole or SMT. 
 
-Cut off the legs on one side and solder wires on the other.
+The following order is not the only one possible but will hopefully help you do it right the first time. :
+1. 4-leg switches: Cut off the legs on one side. 2-leg centered: Bend the legs
+2. Check that each printed button can easily press a switch to its bottom, trim the button as/if needed.
+3. Attach printed buttons to base and check that each button has some play around it and moves easily, trim the button as/if needed.
+4. Remove buttons and make sure the switches can be placed in their respective places. Trim the base as/if needed.
+5. Solder very thin wires to the switches, the soldering must not make the legs wider (thicker is ok). Wire length about 15cm for the tripple-buttons. One side of each switch shall be connected to GND, so they can be daisy-chained on one side.
+6. Route wires through the holes to reach the PCB compartment, put swiches in place, attach printed buttons. Check that the switches 'click' nicely and easily.
+7. Route wires under the "hooks". The tripple-button wires should go around the stem. Cut wires to suitable lengths
+8. Solder the wires to GND and TPx. Buttons can be re-assigned in the driver, but I used TP1 for the leftmost button and then in order.
+9. Mount the wireholders to hold the wires out of the way for other parts during assembly
 
-Make sure you remove all printing supports on the base.
-
-Route the wires, place the switches and attach the "button" parts. 
 
 ![](3_switches_mounted.png?raw=true)
 
